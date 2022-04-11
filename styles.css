@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fancyAsF;
+    src: url(fonts/beaurivage-regular-webfont.woff);
+    src: url(fonts/beaurivage-regular-webfont.woff2);
+}
+@font-face {
+    font-family: theRest;
+    src: url(fonts/robotoslab-variablefont_wght-webfont.woff);
+    src: url(fonts/robotoslab-variablefont_wght-webfont.woff2);
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 25vw;
+    height: 100vh;
+    color: antiquewhite;
+}
+
+.right-container {
+    position: relative;
+    width: 45vw;
+    height: 100vh;
+}
+
+.black {
+    position: relative;
+    width: 15vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.left-container .backgroundImage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.left-container .label {
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    top: 25vh;
+    width: 100%;
+    height: 15vh;
+    opacity: 0.4;
+    background-color: black;
+}
+
+.label p{
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    box-sizing: border-box;  
+    font-family: fancyAsF;  
+}
+
+
+.left-container .footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    opacity: 0.4;
+    background-color: black;
+    font-size: 0.75rem;
+    box-sizing: border-box;
+    padding-right: 2em;
+}
+
+.right-container > div {
+    position: relative;
+    width: 100%;
+    height: 33.33vh;
+    border: black 1px solid; /* erase after? */
+}
+
+.top-container {
+    position: relative;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding: 15% 5% 3% 5%;
+    font-family: theRest;
+}
+
+.top-container > p {
+    margin-top: 1.5em;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.middle-container {
+    background-color: white;
+    font-family: theRest;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.do-this {
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    padding: 15px 0 5px 35px;
+}
+.form {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bottom-container {
+    background-color: #F2F2F2;
+    font-family: theRest;
+
+}
