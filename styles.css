@@ -30,6 +30,9 @@
     height: 100vh;
     color: antiquewhite;
 }
+.left-container:hover {
+    cursor: default;
+}
 
 .right-container {
     position: relative;
